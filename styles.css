@@ -77,6 +77,7 @@ body{background:var(--paper)}
 .svc{min-width:0;min-height:250px;padding:26px;background:var(--white);display:flex;flex-direction:column;align-items:flex-start;gap:14px;text-decoration:none;transition:transform .22s,background .22s,box-shadow .22s;}
 .svc:hover{position:relative;z-index:1;transform:translateY(-3px);background:#fff9e9;box-shadow:0 12px 26px rgba(23,38,59,.12)}
 .svc .ic{width:46px;height:46px;flex:none;border-radius:8px}
+.detail-copy .kicker .ic svg{width:18px;height:18px}
 .svc h3{font:500 20px/1.2 Georgia,'Times New Roman',serif}
 .svc p{font-size:14px;line-height:1.55;color:var(--muted)}
 .svc .more{margin-top:auto;padding-top:8px;display:flex;align-items:center;gap:8px;font:700 11px/1.2 var(--f-display);color:var(--yellow-ink)}
